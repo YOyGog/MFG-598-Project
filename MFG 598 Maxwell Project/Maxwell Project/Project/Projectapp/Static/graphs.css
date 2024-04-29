@@ -1,0 +1,66 @@
+.graph1button .graph1buttonclass{
+    background-color: blue; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+    top: 20px;    
+    left: 370px;  
+}
+
+.graph2button .graph2buttonclass{
+    background-color: red; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+    top: 20px;    
+    left: 570px;  
+}
+
+.graph3button .graph3buttonclass{
+    background-color: orangered; 
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+    top: 20px;    
+    left: 770px;  
+}
+
+.graph4button .graph4buttonclass{
+    background-color: yellow; 
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+    top: 20px;    
+    left: 970px;  
+}
+#display-area{
+    display: flex;
+    justify-content: center; 
+    align-items: center;      
+    height: 100%;
+ 
+}
+
+body{
+    background: lightgreen;
+}

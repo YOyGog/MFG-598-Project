@@ -1,0 +1,54 @@
+.predictbutton .predictbuttonclass {
+    background-color: gold; 
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+  }
+
+
+
+
+  .countrydiv .countryinput  {
+    width: 200px;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    outline: none;
+}
+
+.weightdiv .weightinput  {
+    width: 200px;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    outline: none;
+}
+
+.shipmentmodediv .shipmentmodeinput  {
+    width: 200px;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    outline: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: cyan;
+}
+
+.errormessage{
+    color:forestgreen
+}

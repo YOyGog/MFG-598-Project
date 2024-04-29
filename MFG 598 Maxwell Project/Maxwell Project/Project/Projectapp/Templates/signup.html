@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      {% load static %}
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="{% static 'signup.css' %}">
+    
+        <title> SCT </title>
+        
+        <body>
+        
+       
+      
+            <form method="post" action="signup">
+                {% csrf_token %}
+                {%for message in messages%}
+                <div class="alert alert-{{message.tags}} alert-dismissible fade show" role="alert">
+               <h3 class="errormessage">{{message}}</h3>
+             {% endfor %}
+             </div>
+            <div class="firstname">
+               <input type="text" class="firstnameinput" placeholder="First Name" name="firstname" required>
+            </div>
+            <br>
+            <div class="lastname">
+                <input type="text" class="lastnameinput" placeholder="Last Name" name='lastname' required>
+             </div>
+             <br>
+             <div class="email">
+                <input type="text" class="emailinput" placeholder="Email" name="mailbox" required>
+             </div>
+             <br>
+             <div class="username">
+                <input type="text" class="usernameinput" placeholder="User Name" name="username" required>
+             </div>
+             <br>
+             <div class="password">
+                <input type="password" class="passwordinput" placeholder="Password" name="password" required>
+             </div>
+             <br>
+             <div class="reenterpassword">
+                <input type="password" class="reenterpasswordinput" placeholder="Confirm Password" name="confirmpassword" required>
+             </div>
+             <br>
+             <div class="signupbutton">
+                <button class="signupbuttonclass">Sign Up</button>
+             </div>
+             <br>
+             <div class="member"><a href="http://127.0.0.1:8000/" class="alreadymember">Already have an Account</a></div>
+            </form>
+            <script>
+               
+            </script>
+        </body>
+    </head>
+</html>

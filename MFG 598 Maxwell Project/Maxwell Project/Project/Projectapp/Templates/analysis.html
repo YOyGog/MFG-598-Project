@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        {% load static %}
+        <link rel="stylesheet" type="text/css" href="{% static 'analysis.css' %}">
+        <title>SCT</title>
+        <body>
+            <form method="post" action="analysis">
+                {% csrf_token %}
+                {%for message in messages%}
+                <div class="alert alert-{{message.tags}} alert-dismissible fade show" role="alert">
+               <h3 class="errormessage">{{message}}</h3>
+             {% endfor %}
+                <div class="countrydiv">
+                    <input class="countryinput" type="text" name="countryinput" placeholder="Enter Country Name" required>
+                </div>
+                <br>
+                <div class="weightdiv">
+                    <input class="weightinput" type="number" name="weightinput" placeholder="Enter Weight in Kg" required>
+                </div>
+                <br>
+                <div class="shipmentmodediv">
+                    <input class="shipmentmodeinput" type="text" name="shipmentmodeinput" placeholder="Enter Shipment Mode" required>
+                </div>
+                <br>
+                <div class="predictbutton">
+                    <button class="predictbuttonclass">Predict</button>
+                 </div>
+                 <br>
+              
+                 <div class="graphlink">
+                    <a class="graphlinkclass" href="http://127.0.0.1:8000/graphs">Graphs</a>
+                 </div>
+            </form>
+        </body>
+    </head>
+</html>

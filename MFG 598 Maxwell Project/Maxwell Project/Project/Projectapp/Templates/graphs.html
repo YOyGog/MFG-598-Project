@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        {% load static %}
+        <link rel="stylesheet" type="text/css" href="{% static 'graphs.css' %}">
+        {% load static %}
+        <title>SCT</title>
+        <body>
+            <script>
+             function graph1buttonfunction(){
+                var displayArea = document.getElementById('display-area');
+                imageSrc="{% static 'graph2.png' %}"
+                displayArea.innerHTML = '<img src="' + imageSrc + '" alt="Displayed Image">';
+             }
+             function graph2buttonfunction(){
+                var displayArea = document.getElementById('display-area');
+                imageSrc="{% static 'graph6.png' %}"
+                displayArea.innerHTML = '<img src="' + imageSrc + '" alt="Displayed Image">';
+             }
+             function graph3buttonfunction(){
+                var displayArea = document.getElementById('display-area');
+                imageSrc="{% static 'graph3.png' %}"
+                displayArea.innerHTML = '<img src="' + imageSrc + '" alt="Displayed Image">';
+             }
+             function graph4buttonfunction(){
+                var displayArea = document.getElementById('display-area');
+                imageSrc="{% static 'graph4.png' %}"
+                displayArea.innerHTML = '<img src="' + imageSrc + '" alt="Displayed Image">';
+             }
+            </script>
+            <div class="graph1button">
+                <button class="graph1buttonclass" onclick="graph1buttonfunction()">Graph 1</button>
+            </div>
+            <br>
+            <div class="graph2button">
+                <button class="graph2buttonclass" onclick="graph2buttonfunction()">Graph 2</button>
+            </div>
+            <br>
+            
+            <div class="graph3button">
+                <button class="graph3buttonclass" onclick="graph3buttonfunction()">Graph 3</button>
+            </div>
+            <br>
+            
+            <div class="graph4button">
+                <button class="graph4buttonclass" onclick="graph4buttonfunction()">Graph 4</button>
+            </div>
+            <br>
+            <div id="display-area"></div>
+        </body>
+    </head>
+</html>

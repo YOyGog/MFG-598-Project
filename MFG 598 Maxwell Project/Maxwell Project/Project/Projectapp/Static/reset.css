@@ -1,0 +1,60 @@
+.submit{
+    background-color: blue; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: green;
+}
+
+.resetusername .resetusernameinput  {
+    width: 200px;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    outline: none;
+}
+
+.resetpassword .resetpasswordinput  {
+    width: 200px;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    outline: none;
+}
+
+
+.resetconfirmpassword .resetconfirmpasswordinput  {
+    width: 200px;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    outline: none;
+}
+
+
+.resetotp .resetotpinput  {
+    width: 200px;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    outline: none;
+}
+.errormessage{
+    color:yellow
+}

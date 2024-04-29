@@ -1,0 +1,53 @@
+ .buttons .loginbutton {
+    background-color: red; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+  }
+
+  .buttons .signuplink{
+    color: darkgreen; 
+    text-decoration: none; 
+  }
+
+  
+  .otplink .forgotpasswordlink{
+    color: darkgreen; 
+    text-decoration: none; 
+  }
+
+ .userid .usernameinput  {
+    width: 200px;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    outline: none;
+}
+
+ .password .passwordinput  {
+    width: 200px;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    outline: none;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: pink;
+}
+
+.errormessage{
+  color:blue
+}

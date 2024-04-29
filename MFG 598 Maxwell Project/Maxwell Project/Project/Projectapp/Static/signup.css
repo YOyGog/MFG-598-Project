@@ -1,0 +1,90 @@
+.signupbutton .signupbuttonclass {
+    background-color: green; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+  }
+
+.member .alreadymember {
+    color: blue; 
+    text-decoration: none; 
+}
+
+.firstname .firstnameinput  {
+    width: 200px;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    outline: none;
+}
+.lastname .lastnameinput  {
+    width: 200px;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    outline: none;
+}
+
+
+.lasttname .lasttnameinput  {
+    width: 200px;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    outline: none;
+}
+.email .emailinput  {
+    width: 200px;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    outline: none;
+}
+.username .usernameinput  {
+    width: 200px;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    outline: none;
+}
+
+.password .passwordinput  {
+    width: 200px;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    outline: none;
+}
+
+.reenterpassword .reenterpasswordinput  {
+    width: 200px;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    outline: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: gold;
+}
+
+.errormessage{
+    color:blueviolet
+}
